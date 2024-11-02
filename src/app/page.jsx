@@ -1,11 +1,15 @@
-import styles from "./page.module.css";
+"use client";
+import styles from "./page.module.scss";
+import Landing from "./components/Landing/Index";
+import Foreword from "./components/Foreword/Index";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <h1>Trilogi</h1>
-      </main>
-    </div>
+    <main className={styles.main}>
+      <section className={styles.section}>
+        <Landing />
+        <Foreword />
+      </section>
+    </main>
   );
 }
