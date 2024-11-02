@@ -1,4 +1,14 @@
 .landing {
   height: 100vh;
-  padding: 48px 80px;
+  padding: 260px 64px;
+  background-color: #d5253a;
+  color: #f1d9b0;
+  p {
+    font-size: 32px;
+    font-weight: 300;
+  }
+  h1 {
+    font-size: 64px;
+    font-weight: 700;
+  }
 }
