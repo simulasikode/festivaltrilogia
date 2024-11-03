@@ -1,0 +1,18 @@
+.footer {
+  bottom: 0px;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+  .social {
+    display: flex;
+    gap: 16px;
+    p {
+      font-weight: 300;
+      &:hover {
+        cursor: pointer;
+        color: #eed09c;
+      }
+    }
+  }
+}

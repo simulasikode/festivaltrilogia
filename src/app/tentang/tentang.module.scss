@@ -1,0 +1,19 @@
+.tentang {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  padding: 32px;
+  background-color: #535ea2;
+  div {
+    margin-top: 84px;
+
+    p {
+      font-size: 22px;
+      margin-bottom: 4px;
+    }
+    span {
+      font-size: 64px;
+      font-weight: 700;
+    }
+  }
+}
