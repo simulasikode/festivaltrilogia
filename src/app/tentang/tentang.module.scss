@@ -1,19 +1,31 @@
 .tentang {
   width: 100vw;
-  height: 100vh;
-  display: flex;
   padding: 32px;
   background-color: #535ea2;
+  position: relative;
   div {
     margin-top: 84px;
 
     p {
-      font-size: 22px;
+      font-size: 26px;
       margin-bottom: 4px;
+      font-weight: 400;
     }
     span {
       font-size: 64px;
       font-weight: 700;
+      font-family: basteleur;
+    }
+  }
+  .text {
+    width: 68vw;
+    text-wrap: wrap;
+    margin-bottom: 320px;
+
+    p {
+      font-size: 18px;
+      margin: 10px;
+      letter-spacing: normal;
     }
   }
 }

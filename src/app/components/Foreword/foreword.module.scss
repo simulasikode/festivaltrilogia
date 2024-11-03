@@ -1,16 +1,33 @@
 .foreword {
-  height: 100vh;
   padding: 102px 32px;
   background-color: white;
   color: black;
   overflow: hidden;
-  p {
-    font-weight: 300;
-    font-size: 18px;
-    padding-bottom: 16px;
+  div {
+    overflow: hidden;
+    span {
+      font-weight: 400;
+      font-size: 18px;
+      padding-bottom: 24px;
+      width: 96px;
+    }
   }
+
   h2 {
+    margin-top: 32px;
     font-size: 46px;
     font-weight: 500;
+    margin-bottom: 32px;
+  }
+  .text {
+    width: 64vw;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.625;
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      padding-bottom: 8px;
+    }
   }
 }

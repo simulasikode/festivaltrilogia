@@ -40,3 +40,8 @@ a {
     color-scheme: dark;
   }
 }
+
+@font-face {
+  font-family: basteleur;
+  src: url("./fonts/BasteleurBold.woff");
+}
