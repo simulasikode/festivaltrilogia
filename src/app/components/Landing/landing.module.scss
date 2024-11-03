@@ -8,7 +8,11 @@
     font-weight: 300;
   }
   h1 {
-    font-size: 64px;
-    font-weight: 700;
+    font-size: 58px;
+    font-family: basteleur;
+  }
+  @font-face {
+    font-family: basteleur;
+    src: url("../../fonts/BasteleurBold.woff");
   }
 }
