@@ -3,6 +3,7 @@
   padding: 260px 32px;
   background-color: #d5253a;
   color: #f1d9b0;
+
   p {
     font-size: 32px;
     font-weight: 300;
@@ -10,5 +11,10 @@
   h1 {
     font-size: 58px;
     font-family: basteleur;
+  }
+  .lari {
+    display: flex;
+    padding-top: 56px;
+    gap: 120px;
   }
 }

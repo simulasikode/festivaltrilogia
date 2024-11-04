@@ -9,7 +9,7 @@ export const metadata = {
   description: "Seni cetak yang bergerak",
 };
 
-const montserrat = Montserrat({ subsets: ["latin"] });
+const montserrat = Montserrat({ subsets: ["latin"], display: "swap" });
 
 export default function RootLayout({ children }) {
   return (

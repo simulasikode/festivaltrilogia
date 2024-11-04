@@ -1,12 +1,20 @@
 "use client";
+import Image from "next/image";
 import styles from "./header.module.scss";
 import Link from "next/link";
 
 export default function Header() {
   return (
     <div className={styles.header}>
-      <div>
-        <Link href="/">Festival seni cetak grafis</Link>
+      <div className={styles.logo}>
+        <Link href="/">
+          <Image
+            src={"logofest.svg"}
+            alt="festival logo"
+            height={32}
+            width={32}
+          />
+        </Link>
       </div>
       <nav className={styles.nav}>
         <ul>

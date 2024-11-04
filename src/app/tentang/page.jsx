@@ -3,7 +3,7 @@ import styles from "./tentang.module.scss";
 export default function Tentang() {
   return (
     <div className={styles.tentang}>
-      <div>
+      <div className={styles.title}>
         <p>Tentang</p>
         <span>Festival Seni Cetak Grafis</span>
       </div>

@@ -14,7 +14,14 @@
   &--scrolled {
     height: 40px;
   }
-
+  .logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    &:hover {
+      color: #423011;
+    }
+  }
   .nav {
     display: flex;
     align-items: center;
