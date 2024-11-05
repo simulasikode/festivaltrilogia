@@ -18,7 +18,7 @@ export default function Index() {
         trigger: document.documentElement,
         scrub: true,
         start: "top",
-        end: "+=8920px",
+        end: "+=2660px",
       },
     });
 
@@ -26,7 +26,7 @@ export default function Index() {
 
       .from(background.current, { height: "130px" })
 
-      .to(introImage.current, { clipPath: `inset(15%)` }, 0);
+      .to(introImage.current, { clipPath: `inset(5%)` }, 0);
   }, []);
 
   return (
