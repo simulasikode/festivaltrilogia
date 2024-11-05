@@ -3,18 +3,23 @@
 .watak {
   width: 100vw;
   padding: 32px;
-  padding-top: 48px;
   background-color: #f7d3d8;
+
   //start
   mark {
     background-color: #e67c89;
     color: black;
   }
-  div {
-    position: relative;
-    margin-top: 100px;
-    margin-bottom: 42px;
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24rem;
+    margin-top: 200px;
+    margin-bottom: 96px;
+
     span {
+      padding-top: 64px;
       font-size: 64px;
       font-family: basteleur;
       color: #c02134;
@@ -36,6 +41,10 @@
       }
     }
   }
-
   //end
+  .img {
+    display: flex;
+    overflow: hidden;
+    justify-items: center;
+  }
 }
