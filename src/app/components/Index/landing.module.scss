@@ -1,0 +1,43 @@
+@import "../media.scss";
+.landing {
+  height: 100vh;
+  padding: 260px 32px;
+  background-color: #d5253a;
+  color: #f1d9b0;
+  overflow: hidden;
+  p {
+    font-size: 32px;
+    font-weight: 300;
+  }
+  h1 {
+    font-size: 58px;
+    font-family: basteleur;
+  }
+
+  @include mobile {
+    padding: 132px 32px;
+    p {
+      font-size: 16px;
+    }
+    h1 {
+      width: 60vw;
+      padding-top: 18px;
+      font-size: 42px;
+    }
+  }
+  .lari {
+    display: flex;
+    padding-top: 56px;
+    gap: 120px;
+    span {
+      position: relative;
+    }
+
+    @include mobile {
+      display: none;
+    }
+    @include tablet {
+      display: none;
+    }
+  }
+}

@@ -1,8 +1,8 @@
 import "./globals.css";
-import SmoothScrolling from "./components/SmoothScrolling";
 import Footer from "./components/Footer/Index";
 import Header from "./components/Header/Index";
 import { Montserrat } from "next/font/google";
+import SmoothScrolling from "./components/SmoothScrolling";
 
 export const metadata = {
   title: "Festival: Trilogia",
@@ -14,13 +14,14 @@ const montserrat = Montserrat({ subsets: ["latin"], display: "swap" });
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <SmoothScrolling>
-        <body className={montserrat.className}>
+      <body className={montserrat.className}>
+        <SmoothScrolling>
+          {" "}
           <Header />
           {children}
           <Footer />
-        </body>
-      </SmoothScrolling>
+        </SmoothScrolling>
+      </body>
     </html>
   );
 }

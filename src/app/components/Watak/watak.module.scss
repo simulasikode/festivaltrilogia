@@ -1,19 +1,25 @@
+@import "../media.scss";
+
 .watak {
   width: 100vw;
-  height: 100vh;
   padding: 32px;
-  padding-top: 82px;
+  padding-top: 48px;
   background-color: #f7d3d8;
+  //start
+  mark {
+    background-color: #e67c89;
+    color: black;
+  }
   div {
     position: relative;
+    margin-top: 100px;
+    margin-bottom: 42px;
     span {
       font-size: 64px;
       font-family: basteleur;
       color: #c02134;
     }
     p {
-      text-align: justify;
-      text-justify: inter-word;
       margin-top: 32px;
       width: 50vw;
       font-size: 18px;
@@ -21,5 +27,15 @@
       line-height: 1.625;
       color: black;
     }
+    @include mobile {
+      p {
+        text-align: left;
+        width: 320px;
+        font-size: 14px;
+        line-height: normal;
+      }
+    }
   }
+
+  //end
 }

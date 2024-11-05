@@ -1,15 +1,16 @@
+@import "../media.scss";
+
 .foreword {
   padding: 102px 32px;
   background-color: white;
   color: black;
   overflow: hidden;
-  div {
-    overflow: hidden;
-    span {
-      font-weight: 400;
-      font-size: 18px;
-      padding-bottom: 24px;
-      width: 96px;
+
+  p {
+    display: block;
+    font-weight: 600;
+    @include mobile {
+      width: 320px;
     }
   }
 
@@ -18,16 +19,41 @@
     font-size: 46px;
     font-weight: 500;
     margin-bottom: 32px;
+    overflow: hidden;
   }
-  .text {
-    width: 64vw;
-    text-align: justify;
-    text-justify: inter-word;
-    line-height: 1.625;
-    p {
-      font-weight: 400;
-      font-size: 16px;
-      padding-bottom: 8px;
+
+  @include mobile {
+    h2 {
+      width: 320px;
+      font-size: 18px;
+    }
+  }
+
+  @include tablet {
+    h2 {
+      font-size: 32px;
+    }
+  }
+  .btn {
+    background-color: #d5253a;
+    width: 16vw;
+    padding: 18px 18px;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: 500;
+
+    &:hover {
+      background-color: #d93b4e;
+      color: #fbe9eb;
+      font-weight: 500;
+    }
+    @include mobile {
+      width: 320px;
+    }
+    @include tablet {
+      width: 439px;
     }
   }
 }
