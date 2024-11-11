@@ -1,0 +1,26 @@
+.content {
+  color: white;
+  padding: 32px;
+  background-color: #4e4e6a;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  .nav {
+    margin-top: 86px;
+    display: flex;
+    gap: 48px;
+    flex-shrink: 0;
+  }
+
+  .section2 {
+    display: flex;
+    justify-content: space-between;
+    justify-items: end;
+    margin-top: 32px;
+    h1 {
+      font-size: 18px;
+    }
+  }
+}
